@@ -1,0 +1,23 @@
+﻿{
+     "Racer": 
+     [
+     {
+      "name": "Ref",
+      "CheckDialogue" : "Welcome to Checkpoint Race! Go for the checkpoints before the timer runs out!"
+     },
+     {
+     "name": "Ref",
+      "BasicDialogue" : "Welcome to the Beginner race! Simple stuff. Just go & race from A to B & bring home the gold."     
+     },
+     {
+     "name": "Ref",
+      "AdvanceDialogue" : "Welcome to the Advanced race! This will really test you & the racers here , arent playing, so do what you."
+     },
+     {
+     "name": "Ref",
+      "BasicDialogue" : "Sorry boss. Still saving for the game there. Ill chune you when its ready ey? "     
+     }
+
+
+     ]
+}
