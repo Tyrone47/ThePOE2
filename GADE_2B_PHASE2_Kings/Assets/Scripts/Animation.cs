@@ -28,21 +28,21 @@ public class Animation : MonoBehaviour
                 anim1.GetComponent<Animator>().Play("Cheer1");
                 anim2.GetComponent<Animator>().Play("Cheer2");
                 anim3.GetComponent<Animator>().Play("Cheer3");
-                Debug.Log("first");
+               
             }
             else if (range == 2)
             {
                 anim1.GetComponent<Animator>().Play("Cheer2");
                 anim2.GetComponent<Animator>().Play("Cheer1");
                 anim3.GetComponent<Animator>().Play("Cheer2");
-                Debug.Log("second");
+                
             }
             else if (range == 3)
             {
                 anim1.GetComponent<Animator>().Play("Cheer3");
                 anim2.GetComponent<Animator>().Play("Cheer3");
                 anim3.GetComponent<Animator>().Play("Cheer1");
-                Debug.Log("third");
+               
             }
             period = 0;
         }
