@@ -8,10 +8,12 @@ using UnityEngine;
 
 public class Move : MonoBehaviour
 {
+
+    public GameObject RaceCar;
     // Start is called before the first frame update
     void Start()
     {
-        
+        //RaceCar.transform.Rotate(-90f, 0.0f, 0.0f);
     }
 
     // Update is called once per frame
@@ -19,19 +21,19 @@ public class Move : MonoBehaviour
     {
         if (Input.GetKey(KeyCode.W))
         {
-            transform.Translate(Vector3.forward * Time.deltaTime);
+            transform.Translate(Vector3.left * Time.deltaTime);
         }
         if (Input.GetKey(KeyCode.D))
         {
-            transform.Translate(Vector3.right * Time.deltaTime);
+            transform.Translate(Vector3.down * Time.deltaTime);
         }
         if (Input.GetKey(KeyCode.A))
         {
-            transform.Translate(Vector3.left * Time.deltaTime);
+            transform.Translate(Vector3.up * Time.deltaTime);
         }
         if (Input.GetKey(KeyCode.S))
         {
-            transform.Translate(Vector3.down * Time.deltaTime);
+            transform.Translate(Vector3.right * Time.deltaTime);
         }
     }
 }

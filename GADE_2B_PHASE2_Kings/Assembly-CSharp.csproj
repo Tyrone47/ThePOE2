@@ -53,14 +53,17 @@
     <UnityVersion>2021.3.8f1</UnityVersion>
   </PropertyGroup>
   <ItemGroup>
-    <Analyzer Include="C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\Extensions\Microsoft\Visual Studio Tools for Unity\Analyzers\Microsoft.Unity.Analyzers.dll" />
+    <Analyzer Include="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\Extensions\Microsoft\Visual Studio Tools for Unity\Analyzers\Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Scripts\PlayController.cs" />
     <Compile Include="Assets\Scripts\InputManager.cs" />
+    <Compile Include="Assets\Scripts\AIFactory\AIRacerFactory.cs" />
     <Compile Include="Assets\Scripts\Dialogue\CustomLinkedList.cs" />
     <Compile Include="Assets\Scripts\CheckPointTest.cs" />
     <Compile Include="Assets\Scripts\Dialogue\LinkIterator.cs" />
+    <Compile Include="Assets\Scripts\AIFactory\UniversalFactory.cs" />
+    <Compile Include="Assets\Scripts\AIFactory\PrefabSpawner.cs" />
     <Compile Include="Assets\Scripts\Dialogue\CNode.cs" />
     <Compile Include="Assets\Scripts\Dialogue\JSONReader.cs" />
     <Compile Include="Assets\Scripts\Dialogue\DialogueManager.cs" />
@@ -808,14 +811,6 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="Ink-Libraries.csproj">
-      <Project>{E836D67E-F6F6-5E34-5E6C-F83D9FCE325A}</Project>
-      <Name>Ink-Libraries</Name>
-    </ProjectReference>
-    <ProjectReference Include="InkEditor.csproj">
-      <Project>{63149308-9AA5-53D6-71BE-BB8408E924E6}</Project>
-      <Name>InkEditor</Name>
-    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="GenerateTargetFrameworkMonikerAttribute" />

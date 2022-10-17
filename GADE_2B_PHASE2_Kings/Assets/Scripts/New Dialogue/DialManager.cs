@@ -31,6 +31,7 @@ public class DialManager : MonoBehaviour
 
     public void startDialogue()
     {
+        Pause();
         dial_panel.gameObject.SetActive(true);
         nextDialogue();
     }
@@ -45,6 +46,17 @@ public class DialManager : MonoBehaviour
         else
         {
             dial_panel.gameObject.SetActive(false);
+            Resume();
         }
+    }
+
+    private void Pause()
+    {
+        Time.timeScale = 0;
+    }
+
+    private void Resume()
+    {
+        Time.timeScale = 1;
     }
 }
