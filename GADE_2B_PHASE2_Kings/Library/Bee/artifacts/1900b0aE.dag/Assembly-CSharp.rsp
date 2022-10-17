@@ -376,11 +376,13 @@
 "Assets/Scripts/Dialogue/Queue.cs"
 "Assets/Scripts/InputManager.cs"
 "Assets/Scripts/LapCount.cs"
+"Assets/Scripts/LinkedList.cs"
 "Assets/Scripts/Move.cs"
 "Assets/Scripts/New Dialogue/DialManager.cs"
 "Assets/Scripts/New Dialogue/DialogueContainer.cs"
 "Assets/Scripts/New Dialogue/NewDialogue.cs"
 "Assets/Scripts/PlayController.cs"
+"Assets/Scripts/WayPointManager.cs"
 -langversion:9.0
 
 /deterministic
