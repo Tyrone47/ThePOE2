@@ -58,7 +58,7 @@
   <ItemGroup>
     <Compile Include="Assets\Scripts\PlayController.cs" />
     <Compile Include="Assets\Scripts\InputManager.cs" />
-    <Compile Include="Assets\Scripts\WayPointManager.cs" />
+    <Compile Include="Assets\Scripts\Grapgh ADT\WayPointManager.cs" />
     <Compile Include="Assets\Scripts\LinkedList.cs" />
     <Compile Include="Assets\Scripts\AIFactory\AIRacerFactory.cs" />
     <Compile Include="Assets\Scripts\Dialogue\CustomLinkedList.cs" />
@@ -81,6 +81,9 @@
     <Compile Include="Assets\Scripts\Dialogue\Dialogue.cs" />
     <Compile Include="Assets\Scripts\New Dialogue\NewDialogue.cs" />
     <Compile Include="Assets\Scripts\New Dialogue\DialogueContainer.cs" />
+    <Compile Include="Assets\Scripts\Grapgh ADT\CheckWaypoints.cs" />
+    <Compile Include="Assets\Scripts\Grapgh ADT\PointAorPointB.cs" />
+    <Compile Include="Assets\setObjective.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
@@ -90,7 +93,7 @@
     <None Include="Assets\TextMesh Pro\Shaders\TMPro_Mobile.cginc" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF SSD.shader" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Surface-Mobile.shader" />
-    <None Include="Assets\Resources\CheckpointRace.txt" />
+    <None Include="Assets\Scripts\Resources\CheckpointRace.txt" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Surface.shader" />
     <None Include="Assets\TextMesh Pro\Sprites\EmojiOne Attribution.txt" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap-Custom-Atlas.shader" />
@@ -105,6 +108,7 @@
     <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap-Mobile.shader" />
     <None Include="Assets\TextMesh Pro\Fonts\LiberationSans - OFL.txt" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile.shader" />
+    <None Include="Assets\Scripts\Resources\AdvancedDialogue.txt" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_Sprite.shader" />
   </ItemGroup>
   <ItemGroup>
