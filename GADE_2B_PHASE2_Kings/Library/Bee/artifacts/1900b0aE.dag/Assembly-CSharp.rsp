@@ -374,6 +374,9 @@
 "Assets/Scripts/Dialogue/LinkIterator.cs"
 "Assets/Scripts/Dialogue/Node.cs"
 "Assets/Scripts/Dialogue/Queue.cs"
+"Assets/Scripts/Grapgh ADT/CheckWaypoints.cs"
+"Assets/Scripts/Grapgh ADT/PointAorPointB.cs"
+"Assets/Scripts/Grapgh ADT/WayPointManager.cs"
 "Assets/Scripts/InputManager.cs"
 "Assets/Scripts/LapCount.cs"
 "Assets/Scripts/LinkedList.cs"
@@ -382,7 +385,7 @@
 "Assets/Scripts/New Dialogue/DialogueContainer.cs"
 "Assets/Scripts/New Dialogue/NewDialogue.cs"
 "Assets/Scripts/PlayController.cs"
-"Assets/Scripts/WayPointManager.cs"
+"Assets/setObjective.cs"
 -langversion:9.0
 
 /deterministic

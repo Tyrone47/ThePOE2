@@ -1,0 +1,16 @@
+{
+  "container":[
+	{
+	  "character_name":"Guy 1",
+	  "text":"Ek se my broer!"
+	},
+	{
+	  "character_name":"Guy 1",
+	  "text":"Go to checkpoint race & spin that machine till it burns!"
+	},
+	{
+	  "character_name":"Guy 1",
+	  "text":"Go for the checkpoint before its chaai(timer runs out.). WASD to drive that thing!"
+	}
+   ]
+}
